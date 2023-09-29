@@ -20,7 +20,7 @@ export function GenarateButton({
     if (textData === "") return;
     setIsLoading(true);
     // const API_KEY = process.env.OPENAI_API_KEY
-    const API_KEY = "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"
+    const API_KEY = ""
     const model = "text-davinci-003";
     const URL = "https://api.openai.com/v1/engines/" + model + "/completions";
 
